@@ -1,0 +1,45 @@
+body {
+  background-color: #808080; 
+  color: white;
+  margin: 0; 
+  padding: 0; 
+}
+
+
+header {
+  background-color: #8FBC8F;
+  color: white; 
+  padding: 20px; 
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+main, footer {
+  padding: 20px; 
+}
+
+.section-title {
+  text-align: center;
+}
+
+.create-thread {
+  border-bottom: 1px solid white;
+}
+
+li {
+  list-style: none;
+}
+
+.thread {
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.thread li {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
